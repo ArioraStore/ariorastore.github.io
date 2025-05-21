@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ariora Store | Steam Random Key</title>
+  <link rel="icon" type="images/png" href="images/ariora.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="text-center py-10 border-b border-gray-700">
+    <h1 class="text-5xl font-bold">Ariora Store</h1>
+    <p class="text-gray-400 mt-2 text-lg">Sürpriz oyunlar, avantajlı fiyatlar!</p>
+  </header>
+
+  <main class="container mx-auto px-4 py-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <!-- Ürün 1 -->
+    <div class="bg-gray-800 p-6 rounded-xl shadow-lg flex flex-col items-center hover:scale-105 transition">
+      <img src="images/BRONZE.PNG" alt="Bronze Random Key" class="rounded mb-4 shadow-md">
+      <h2 class="text-2xl font-semibold mb-2">Bronz Random Steam Key</h2>
+      <p class="text-gray-400 text-sm mb-4 text-center">Orta seviye oyunlar. Genellikle 5-50 TL arası değerde oyunlar çıkar.</p>
+      <span class="text-lg font-bold mb-4">14.99 TL</span>
+      <button onclick="buyNow('https://www.shopier.com/PRODUCT_LINK_1')" class="bg-red-500 hover:bg-red-600 text-white py-2 px-6 rounded-full">
+        Satın Al
+      </button>
+    </div>
+
+    <!-- Ürün 2 -->
+    <div class="bg-gray-800 p-6 rounded-xl shadow-lg flex flex-col items-center hover:scale-105 transition">
+      <img src="images/platinium.png" alt="Platinum Random Key" class="rounded mb-4 shadow-md">
+      <h2 class="text-2xl font-semibold mb-2">Platinum Random Steam Key</h2>
+      <p class="text-gray-400 text-sm mb-4 text-center">Daha değerli oyunlar içerir. 50-150 TL arası oyunlar çıkabilir.</p>
+      <span class="text-lg font-bold mb-4">29.99 TL</span>
+      <button onclick="buyNow('https://www.shopier.com/PRODUCT_LINK_2')" class="bg-red-500 hover:bg-red-600 text-white py-2 px-6 rounded-full">
+        Satın Al
+      </button>
+    </div>
+
+    <!-- Ürün 3 -->
+    <div class="bg-gray-800 p-6 rounded-xl shadow-lg flex flex-col items-center hover:scale-105 transition">
+      <img src="images/elite.png" alt="Elite Random Key" class="rounded mb-4 shadow-md">
+      <h2 class="text-2xl font-semibold mb-2">Elite Random Steam Key</h2>
+      <p class="text-gray-400 text-sm mb-4 text-center">Yüksek değerli oyunlar. AAA oyunlar çıkma şansı yüksektir.</p>
+      <span class="text-lg font-bold mb-4">59.99 TL</span>
+      <button onclick="buyNow('https://www.shopier.com/PRODUCT_LINK_3')" class="bg-red-500 hover:bg-red-600 text-white py-2 px-6 rounded-full">
+        Satın Al
+      </button>
+    </div>
+
+  </main>
+
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    &copy; 2025 Ariora Store. Tüm hakları saklıdır.
+  </footer>
+
+  <script>
+    function buyNow(url) {
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>
